@@ -85,3 +85,13 @@ def func(*arc):
     return dic_u
 print(func('x', 5, 'John'))
 # {'x':1, 5:2, 'John':3}
+
+# Задание_3_3
+def func(*arcs):
+    for i in arcs:
+        print(i)
+a, b = func((1,2,3,4,5))
+print(a)
+#[2, 4]
+print(b)
+#[1, 4, 9, 16, 25]
